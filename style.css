@@ -1,0 +1,139 @@
+
+/* estilo geral */
+*{
+   margin: 0;
+   padding: 100;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+
+}
+ html{
+    height: 100%;
+ }
+body{
+    background-color:#fedeca;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 39px;
+    font-size: 14px;
+    font-weight: 690;
+    margin: 41px;
+    background-color: #c98895;
+    border: #c98895;
+    border-radius: 18px;
+    transform: scale(1.05);
+}
+
+/* estilo do cabecalho */
+header{
+    padding: 40px 4%;
+
+}
+.btn-contato button{
+    padding: 10px 39px;
+    font-size: 14px;
+    font-weight: 690;
+    margin: 41px;
+    background-color: #c98895;
+    border: #c98895;
+    border-radius: 18px;
+    transform: scale(1.05);
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #efc3ca;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:#c98895;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 39px;
+
+}
+
+.btn-contato button:houver{
+    box-shadow: 0px 0px 8px #c98895;
+    transform: scale(1.09);
+}
+
+
+/*etilo o topo do site */
+
+section.topo-do-site{
+    padding: 40px 4%;
+
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    height: 61%;
+    justify-content: center;
+    gap: 90px;
+    color: #000;
+}
+
+.topo-do-site h1{
+    color: #000;
+    font-size: 70px;
+    line-height: 80px;
+    height: 80px;
+}
+
+.txt-topo-do-site p{
+    color: #000;
+    margin: 80px;
+
+}
+btn-contato button{
+    padding: 30px 80px;
+    font-size: 14px;
+    font-weight: 690;
+    margin: 60px;
+    background-color: #c98895;
+    border: #c98895;
+    border-radius: 18px;
+    transform: scale(1.05);
+}
+.img{
+    height: 200px;
+    width: 700px;
+.topo-do-site .img-topo-do-site p{
+    position: relative;
+}
+}
+@keyframes flutuar{
+    0%{
+        top: 130px;
+    }
+    100%{
+        top: 30px;
+    }
+}

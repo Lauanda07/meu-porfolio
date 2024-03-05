@@ -34,6 +34,17 @@ body{
     border-radius: 18px;
     transform: scale(1.05);
 }
+h2.titulo{
+    color: #c98895;
+    font-size: 40px;
+    text-align: center;
+}
+
+   h2.titulo span{
+     color: black;
+
+   } 
+
 
 /* estilo do cabecalho */
 header{
@@ -122,6 +133,12 @@ btn-contato button{
     border-radius: 18px;
     transform: scale(1.05);
 }
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
 .img{
     height: 200px;
     width: 700px;
@@ -137,3 +154,15 @@ btn-contato button{
         top: 30px;
     }
 }
+
+
+/* ESTILO DAS ESPECIALIDADES */
+section.especiliadades {
+    padding: 40px 4%;
+}
+
+section.especiliadades .flex {
+    gap: 60px;
+}
+
+
